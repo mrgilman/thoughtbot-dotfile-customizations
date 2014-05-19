@@ -1,0 +1,7 @@
+alias rc="rails console"
+alias rs="rails server"
+alias fs="foreman start"
+alias be="bundle exec "
+
+# Ctags
+alias ctags="`brew --prefix`/bin/ctags"

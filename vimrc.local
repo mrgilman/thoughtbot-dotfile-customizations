@@ -1,0 +1,22 @@
+" Display line after 80 characters
+set colorcolumn=81
+
+" Map jj to escape
+imap jj <Esc>
+
+" Run all specs with <leader>a
+nnoremap <Leader>a :call RunAllSpecs()<CR>
+
+" Reindent entire file
+map <Leader>= gg=G``<cr>
+
+" insert blank lines without going into insert mode
+nmap go o<esc>
+nmap gO O<esc>
+
+" shortcut for searching
+nmap g/ :Ag<space>
+
+" show cursor line in insert mode
+autocmd InsertEnter * set cul
+autocmd InsertLeave * set nocul

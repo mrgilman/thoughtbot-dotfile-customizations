@@ -1,0 +1,10 @@
+# set cdpath for easy directory switching
+cdpath=($HOME/thoughtbot $HOME/src)
+
+# load rbenv if available
+if which rbenv &>/dev/null ; then
+  eval "$(rbenv init - zsh --no-rehash)"
+fi
+
+# Turn off autocorrect!
+unsetopt correct_all
