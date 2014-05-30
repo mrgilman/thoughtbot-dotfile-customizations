@@ -20,3 +20,6 @@ nmap g/ :Ag<space>
 " show cursor line in insert mode
 autocmd InsertEnter * set cul
 autocmd InsertLeave * set nocul
+
+" Configure tslime with rspec
+let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
