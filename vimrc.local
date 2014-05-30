@@ -23,3 +23,6 @@ autocmd InsertLeave * set nocul
 
 " Configure tslime with rspec
 let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
+
+" Set airline theme
+let g:airline_theme='sol'
