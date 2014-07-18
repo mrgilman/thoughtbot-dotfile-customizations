@@ -9,7 +9,7 @@ fi
 # Turn off autocorrect!
 unsetopt correct_all
 
-export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin:/usr/local/bin:$PATH"
 
 # Custom prompt
 _git_prompt_info() {
