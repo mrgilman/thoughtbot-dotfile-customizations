@@ -1,7 +1,6 @@
 Bundle 'christoomey/vim-tmux-navigator'
 Bundle 'rking/ag.vim'
 Bundle 'stefanoverna/vim-i18n'
-Bundle 'jiangmiao/auto-pairs'
 Bundle 'christoomey/vim-rfactory'
 Bundle 'jgdavey/tslime.vim'
 Bundle 'airblade/vim-gitgutter'
