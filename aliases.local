@@ -1,6 +1,6 @@
 alias rc="bundle exec rails console"
 alias rs="bundle exec rails server"
-alias fs="bundle exec foreman start"
+alias fs="foreman start"
 alias be="bundle exec "
 
 # Ctags

@@ -15,7 +15,7 @@ nmap go o<esc>
 nmap gO O<esc>
 
 " shortcut for searching
-nmap g/ :Ag<space>
+nmap g/ :Ag!<space>
 
 " show cursor line in insert mode
 autocmd InsertEnter * set cul
@@ -25,7 +25,7 @@ autocmd InsertLeave * set nocul
 let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
 
 " Set airline theme
-let g:airline_theme='sol'
+let g:airline_theme='kolor'
 
 " Use relative line numbers
 set relativenumber
@@ -33,3 +33,5 @@ set number
 
 " Four space indentation for Haskell
 au Filetype haskell setl et ts=4 sw=4
+
+let g:syntastic_filetype_map = { 'html.handlebars': 'hbs' }
